@@ -16,13 +16,23 @@
 
 ## 📦 APK 下载
 
-**待发布。** 当前提供补丁源码，尚未发布可下载的 APK。
+**已发布：v0.2.0 离线语音精简实验版 · ARM64。** 安装包约 **162.4 MiB**，包含普通话离线语音与本地设置入口。
 
-| 版本 | 内容 | 下载状态 |
+| 版本 | 内容 | 下载 |
 | --- | --- | --- |
-| 0.2 · ARM64 离线语音精简版 | 本地输入、内置普通话模型、常用商业入口清理 | APK 待发布 |
+| 0.2 · ARM64 离线语音精简版 | 本地输入、内置普通话模型、常用商业入口清理 | [📥 直接下载 APK](https://github.com/sweetnessilyass-debug/OfflineIME_Source_Baidu/releases/download/v0.2.0/BaiduOffline-0.2-arm64.apk) |
 
-正式发布后，这里会补上直接下载链接、版本说明和 SHA-256 校验值。GitHub 的 **Download ZIP** 下载的是源码，手机暂时还不能靠阅读 Python 学会打字。
+[发布说明](https://github.com/sweetnessilyass-debug/OfflineIME_Source_Baidu/releases/tag/v0.2.0) · [校验文件](https://github.com/sweetnessilyass-debug/OfflineIME_Source_Baidu/releases/download/v0.2.0/SHA256SUMS.txt) · [验证摘要](https://github.com/sweetnessilyass-debug/OfflineIME_Source_Baidu/releases/download/v0.2.0/verification.json)
+
+`BaiduOffline-0.2-arm64.apk` 的 SHA-256：
+
+```text
+e5d7a91d8c46519017a1f1810cb1d5f8bd5170a19d45814140b41b4dac2c8096
+```
+
+此包已覆盖安装并通过设置页冷启动检查；语音与候选的完整手动测试来自此前清理构建，最终常规包没有再次录音复测。详见下方测试范围与验证摘要。
+
+GitHub 的 **Download ZIP** 下载的是源码，手机暂时还不能靠阅读 Python 学会打字。
 
 <a id="changes"></a>
 
