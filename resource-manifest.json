@@ -1,0 +1,17 @@
+{
+  "abi": "arm64-v8a",
+  "resource_version": 16,
+  "source_url": "https://mime.baidu.com/res/file/offline_voice/files/7fe167f6d193df21356d70e4478cc208offline_voice_release_64.zip",
+  "archive_bytes": 68396152,
+  "archive_sha256": "42df2f40a07bda99c7b9600b5220fa3175d2501b6171c9e2471da1d45705c6d7",
+  "files": {
+    "s_14": {
+      "bytes": 78026351,
+      "sha256": "7e62989dc166e1ceab136e3268fa109f90a0817de9ff728906e3fa04342752e4"
+    },
+    "libbdTinyEasrAndroid_arm64_12.so": {
+      "bytes": 8647168,
+      "sha256": "d2929eeba469d118306f7754adc216c1881f07b7b27b733dd68dd550ad402844"
+    }
+  }
+}
